@@ -10,7 +10,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Mark';
+  font-family: 'Mark-Extralight';
   src: url('/fonts/mark/Mark-Extralight.eot');
   src: local('Mark-Extralight'),
       url('/fonts/mark/Mark-Extralight.eot?#iefix') format('embedded-opentype'),
@@ -21,7 +21,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Mark';
+  font-family: 'Mark-Extralight-Italic';
   src: url('/fonts/mark/Mark-Extralight-Italic.eot');
   src: local('Mark-Extralight-Italic'),
       url('/fonts/mark/Mark-Extralight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -32,7 +32,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: 'Mark';
+  font-family: 'Mark-Light';
   src: url('/fonts/mark/Mark-Light.eot');
   src: local('Mark-Light'),
       url('/fonts/mark/Mark-Light.eot?#iefix') format('embedded-opentype'),
@@ -43,7 +43,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Mark';
+  font-family: 'Mark-Light-Italic';
   src: url('/fonts/mark/Mark-Light-Italic.eot');
   src: local('Mark-Light-Italic'),
       url('/fonts/mark/Mark-Light-Italic.eot?#iefix') format('embedded-opentype'),
@@ -66,7 +66,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Mark';
+  font-family: 'Mark-Bold';
   src: url('/fonts/mark/Mark-Bold.eot');
   src: local('Mark-Bold'),
       url('/fonts/mark/Mark-Bold.eot?#iefix') format('embedded-opentype'),
@@ -97,7 +97,7 @@
   position: relative;
 }
 p.copyrightText {
-  font-family: Mark-light;
+  font-family: "Mark-Light";
   font-size: 12px;
   position: absolute;
   bottom: 0;
