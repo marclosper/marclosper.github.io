@@ -1,359 +1,594 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>Get in Touch</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script charset="utf-8" src="javascript/scripts.js"></script>
-  <link rel="stylesheet" href="stylesheets/styles.css" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2METN6BX5F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <head>
+        <meta charset="utf-8" />
+        <title>Get in Touch</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script charset="utf-8" src="javascript/scripts.js"></script>
+        <link rel="stylesheet" href="stylesheets/styles.css" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-2METN6BX5F"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    gtag('config', 'G-2METN6BX5F');
-  </script>
-  <style>
-    /* CSS Reset */
-    html {
-      box-sizing: border-box;
-      font-size: 20px;
-    }
+            gtag("config", "G-2METN6BX5F");
+        </script>
+        <style>
+            /* CSS Reset */
+            html {
+                box-sizing: border-box;
+                font-size: 20px;
+            }
 
-    *, *:before, *:after {
-      box-sizing: inherit;
-    }
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
 
-    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-      margin: 0;
-      padding: 0;
-      font-weight: normal;
-    }
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            ol,
+            ul {
+                margin: 0;
+                padding: 0;
+                font-weight: normal;
+            }
 
-    ol, ul {
-      list-style: none;
-    }
+            ol,
+            ul {
+                list-style: none;
+            }
 
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    /* END CSS Reset */
-    html {
-      background: linear-gradient(180deg, #0C71C3 0%, #2ABFED 41%, #20A4DE 59%, #0C71C3 100%);
-    }
-    body, h1, h2, h3, h4, h5, h6, a {
-      color: #fff;
-      font-family: Mark, "Open Sans", Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      line-height: 1.7em;
-    }
-    h1 {
-      line-height: 1.25em;
-      margin-bottom: .75em;
-    }
-    a {
-      color: #fff;
-      font-family: Mark-book;
-      text-decoration: none;
-    }
-    .intro a {
-      color: #0C71C3;
-    }
-    p {
-      margin-bottom: 1em;
-    }
-    .intro p {
-      font-family: mark-regular;
-    }
-    hr {
-      margin: 0;
-    }
-    .mlLogoIcon {
-      height: 50px;
-      width: 50px;;
-      -webkit-transition: -webkit-transform 1.5s ease-in-out;
-      transition: transform 1.5s ease-in-out;
-    }
-    .mlLogoIcon:hover {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-}
-    .btn {
-      padding: .5em 2em;
-      display: block;
-      border: 1px solid;
-      text-align: center;
-      width: max-content;
-      border-radius: 3px;
-      margin: auto;
-      width: 80%;
-      max-width: 300px;
-    }
-    .iconImage {
-      margin-right: .25em;
-      height: 20px;
-      vertical-align: middle;
-    }
-    .btn-primary {
-      border: #fff;
-      background: #fff;
-      color: #0C71C3;
-    }
-    .iconImage {
-      margin-right: .25em;
-    }
-    .nav-logo, .nav-contact {
-      text-align: center;
-    }
-    .nav-contact a {
-      display: inline-block;
-      width: 49.2%;
-      padding: .5em;
-    }
-    .nav-logo {
-      margin: 1.5em auto;
-    }
-    .servicesList {
-      margin: 1em auto 3em;
-      max-width: fit-content;
-    }
-    .servicesList li {
-      margin-bottom: 1em;
-    }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            /* END CSS Reset */
+            html {
+                background: linear-gradient(
+                    180deg,
+                    #0c71c3 0%,
+                    #2abfed 41%,
+                    #20a4de 59%,
+                    #0c71c3 100%
+                );
+            }
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            a {
+                color: #fff;
+                font-family: Mark, "Open Sans", Arial, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                line-height: 1.7em;
+            }
+            h1 {
+                line-height: 1.25em;
+                margin-bottom: 0.75em;
+            }
+            a {
+                color: #fff;
+                font-family: Mark-book;
+                text-decoration: none;
+            }
+            .intro a {
+                color: #0c71c3;
+            }
+            p {
+                margin-bottom: 1em;
+            }
+            .intro p {
+                font-family: mark-regular;
+            }
+            hr {
+                margin: 0;
+            }
+            .mlLogoIcon {
+                height: 50px;
+                width: 50px;
+                -webkit-transition: -webkit-transform 1.5s ease-in-out;
+                transition: transform 1.5s ease-in-out;
+            }
+            .mlLogoIcon:hover {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            .btn {
+                padding: 0.5em 2em;
+                display: block;
+                border: 1px solid;
+                text-align: center;
+                width: max-content;
+                border-radius: 3px;
+                margin: auto;
+                width: 80%;
+                max-width: 300px;
+            }
+            .iconImage {
+                margin-right: 0.25em;
+                height: 20px;
+                vertical-align: middle;
+            }
+            .btn-primary {
+                border: #fff;
+                background: #fff;
+                color: #0c71c3;
+            }
+            .iconImage {
+                margin-right: 0.25em;
+            }
+            .nav-logo,
+            .nav-contact {
+                text-align: center;
+            }
+            .nav-contact a {
+                display: inline-block;
+                width: 49.2%;
+                padding: 0.5em;
+            }
+            .nav-logo {
+                margin: 1.5em auto;
+            }
+            .servicesList {
+                margin: 1em auto 3em;
+                max-width: fit-content;
+            }
+            .servicesList li {
+                margin-bottom: 1em;
+            }
 
-    .header {
-      clear: both;
-      padding: 5% 0;
-      width: 90%;
-      margin: auto;
-    }
-    .intro {
-      position: relative;
-      width: 100%;
-      margin: auto;
-      padding: 6% 0;
-      background: #fff;
-      height: auto;
-    }
-    .introContent {
-      width: 90%;
-      margin: auto;
-      color: rgba(76, 76, 76, 80%);
-      font-size: 18px;
-      line-height: 1.5em;
-    }
-    h1 {
-      text-align: center;
-    }
-    h2, h3 {
-      margin-bottom: .75em;
-    }
-    .mlLogo {
-      height: 30px;
-      height: auto;
-    }
-    .desktopSection {
-      display: none;
-    }
-    .hubspotForm {
-        margin: auto;
-        max-width: 80%;
-        text-align: center;
-        overflow: hidden;
-      }
-    @media screen and (min-width:768px){
-      .navBar {
-        width: 90%;
-        max-width: 1480px;
-        margin: auto;
-      }
-      .intro {
-        margin: auto;
-      }
-      h1 {
-        font-size: 2em;
-        text-align: left;
-        margin-bottom: .75em;
-      }
-      h3 {
-        font-size: 2em;
-        margin-bottom: .25em;
-      }
-      .btn {
-        margin: 3em 0;
-        display: inline-block;
-        width: 80%;
-        max-width: fit-content;
-      }
-      .nav-logo {
-        float: left;
-      }
-      .nav-contact {
-        float: right;
-        padding: .5em 0;
-      }
-      .nav-contact a {
-        width: unset;
-      }
-      hr {
-        display: none;
-      }
-      p {
-        display: block;
-        font-family: Mark-light;
-      }
-      .intro, .header {
-        width: 100%;
-        padding: 5%;
-      }
+            .header {
+                clear: both;
+                padding: 5% 0;
+                width: 90%;
+                margin: auto;
+            }
+            .intro {
+                position: relative;
+                width: 100%;
+                margin: auto;
+                padding: 6% 0;
+                background: #fff;
+                height: auto;
+            }
+            .introContent {
+                width: 90%;
+                margin: auto;
+                color: rgba(76, 76, 76, 80%);
+                font-size: 18px;
+                line-height: 1.5em;
+            }
+            h1 {
+                text-align: center;
+            }
+            h2,
+            h3 {
+                margin-bottom: 0.75em;
+            }
+            .mlLogo {
+                height: 30px;
+                height: auto;
+            }
+            .desktopSection {
+                display: none;
+            }
+            .hubspotForm {
+                margin: auto;
+                max-width: 80%;
+                text-align: center;
+                overflow: hidden;
+            }
+            @media screen and (min-width: 768px) {
+                .navBar {
+                    width: 90%;
+                    max-width: 1480px;
+                    margin: auto;
+                }
+                .intro {
+                    margin: auto;
+                }
+                h1 {
+                    font-size: 2em;
+                    text-align: left;
+                    margin-bottom: 0.75em;
+                }
+                h3 {
+                    font-size: 2em;
+                    margin-bottom: 0.25em;
+                }
+                .btn {
+                    margin: 3em 0;
+                    display: inline-block;
+                    width: 80%;
+                    max-width: fit-content;
+                }
+                .nav-logo {
+                    float: left;
+                }
+                .nav-contact {
+                    float: right;
+                    padding: 0.5em 0;
+                }
+                .nav-contact a {
+                    width: unset;
+                }
+                hr {
+                    display: none;
+                }
+                p {
+                    display: block;
+                    font-family: Mark-light;
+                }
+                .intro,
+                .header {
+                    width: 100%;
+                    padding: 5%;
+                }
 
-      .leftCol {
-        max-width: 53%;
-        display: inline-block;
-        padding: 0 5% 0 0;
-      }
-      .rightCol {
-        width: 45%;
-        padding: 5%;
-        margin: auto;
-        display: inline-block;
-        border-top-width: 1em;
-        border-radius: 4px;
-        border-top: 1em solid #fdc500;
-        -webkit-box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
-
-      }
-      .hubspotForm {
-        max-width: 100%;
-      }
-      .mobileSection {
-        display: none;
-      }
-      .desktopSection {
-        display: block;
-      }
-      .desktopSection.btn {
-        display: inline-block;
-      }
-      .noAnimation {
-        position: relative;
-        height: 100%;
-      }
-      .animationSection {
-        position: relative;
-        height: 7em;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header class="navBar">
-    <div class="nav-contact">
-      <a href="tel:+27659345960"><img class="iconImage" src="images/marclosper-phone.svg" > call me</a>
-
-      <a href="mailto:hello@marclosper.com"><img class="iconImage" src="images/marclosper-email.svg"> mail me</a>
-    </div>
-
-    <hr>
-
-    <div class="nav-logo">
-      <a href="/">
-        <?xml version="1.0" encoding="utf-8"?>
-        <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-        <svg class="mlLogoIcon" style="width:50px;height:50px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-        <style type="text/css">
-          .st0{fill:none;stroke:#FDC500;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
-          .st1{fill:#FDC500;}
+                .leftCol {
+                    max-width: 53%;
+                    display: inline-block;
+                    padding: 0 5% 0 0;
+                }
+                .rightCol {
+                    width: 45%;
+                    padding: 5%;
+                    margin: auto;
+                    display: inline-block;
+                    border-top-width: 1em;
+                    border-radius: 4px;
+                    border-top: 1em solid #fdc500;
+                    -webkit-box-shadow: 0px 0px 21px -5px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 0px 21px -5px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 0px 21px -5px rgba(0, 0, 0, 0.75);
+                }
+                .hubspotForm {
+                    max-width: 100%;
+                }
+                .mobileSection {
+                    display: none;
+                }
+                .desktopSection {
+                    display: block;
+                }
+                .desktopSection.btn {
+                    display: inline-block;
+                }
+                .noAnimation {
+                    position: relative;
+                    height: 100%;
+                }
+                .animationSection {
+                    position: relative;
+                    height: 7em;
+                }
+            }
         </style>
-        <line class="st0" x1="12" y1="2" x2="12" y2="6"/>
-        <line class="st0" x1="12" y1="18" x2="12" y2="22"/>
-        <line class="st0" x1="4.9" y1="4.9" x2="7.8" y2="7.8"/>
-        <line class="st0" x1="16.2" y1="16.2" x2="19.1" y2="19.1"/>
-        <line class="st0" x1="2" y1="12" x2="6" y2="12"/>
-        <line class="st0" x1="18" y1="12" x2="22" y2="12"/>
-        <line class="st0" x1="4.9" y1="19.1" x2="7.8" y2="16.2"/>
-        <line class="st0" x1="16.2" y1="7.8" x2="19.1" y2="4.9"/>
-        <circle class="st1" cx="12" cy="12" r="4.4"/>
-        </svg>
-        <svg style="height: 30px;width: auto;padding-left: 12px;vertical-align: super;" xmlns="http://www.w3.org/2000/svg" width="643" height="108.061" viewBox="0 0 643 108.061"><g transform="translate(-201.019 -0.5)"><g transform="translate(201.519 1)"><path d="M128.9,3.575A2.515,2.515,0,0,1,131.475,1h0a2.515,2.515,0,0,1,2.575,2.575V70.535c0,6.622,2.207,7.726,5.519,7.726q1.656,0,2.207,2.207a1.738,1.738,0,0,1-1.84,1.84h0c-7.726,0-10.3-3.679-10.3-11.773Z" transform="translate(163.955 -1)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M167.208,62.45c-20.235,0-32.008-12.509-32.008-27.225S146.973,8,167.208,8s32.008,12.141,32.008,27.225S187.443,62.45,167.208,62.45Zm0-51.139c-17.66,0-26.857,10.669-26.857,23.546s9.2,23.546,26.857,23.546,26.857-10.669,26.857-23.546S184.5,11.311,167.208,11.311Z" transform="translate(180.833 17.754)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M181.422,62.718c-12.509,0-21.339-2.575-25.018-5.151-.368-.368-1.1-1.1-1.1-1.472a2.06,2.06,0,0,1,1.84-2.207c.368,0,1.1.368,1.472.368a40.446,40.446,0,0,0,22.81,4.415c11.405,0,20.6-3.311,20.6-10.669,0-17.292-45.621-5.519-45.621-25.386,0-9.934,11.773-14.716,24.65-14.716,7.726,0,18.4,1.84,22.442,4.415a2.66,2.66,0,0,1,1.472,2.207,1.738,1.738,0,0,1-1.84,1.84h0c-.368,0-.736-.368-1.472-.368a57.05,57.05,0,0,0-20.6-4.047c-10.3,0-19.867,2.943-19.867,9.934,0,15.452,45.621,3.679,45.621,25.386C207.175,57.568,196.506,62.718,181.422,62.718Z" transform="translate(234.683 17.486)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M176.075,7.952c1.472,0,2.575.736,2.575,2.207V22.3c4.415-8.094,13.613-13.613,27.225-13.613,17.66,0,31.272,9.566,31.272,27.225s-13.613,27.225-31.272,27.225c-14.716,0-23.178-6.254-27.225-13.981V87.052a2.575,2.575,0,0,1-5.151,0V10.159c.368-1.472,1.472-2.575,2.575-2.207Zm30.536,50.771c14.716,0,25.754-8.094,25.754-23.546S220.96,11.631,206.612,11.631c-13.245,0-27.961,6.622-27.961,23.546S193.367,58.723,206.612,58.723Z" transform="translate(283.442 17.434)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M199.051,36.6C199.787,48,208.248,58.3,225.54,58.3c10.3,0,18.763-3.679,23.546-8.462a3.025,3.025,0,0,1,2.207-1.472c1.472,0,2.207,1.1,2.207,2.575,0,.368-.368.736-.368,1.472-5.519,6.254-15.82,10.3-27.225,10.3-17.66,0-32.008-10.3-32.008-27.225S207.513,7.9,224.8,7.9c18.763,0,32.008,11.037,32.008,25.018,0,2.575-.736,3.679-2.575,3.679Zm0-4.047h52.243c0-11.773-10.3-20.971-26.857-20.971-14.716.368-24.65,8.83-25.386,20.971Z" transform="translate(338.095 17.486)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M214.7,10.387c0-1.472.736-2.575,2.207-2.575h.368c1.472,0,2.575.736,2.575,2.207V24A27.937,27.937,0,0,1,246.34,7.811a1.738,1.738,0,0,1,1.84,1.84v.368a1.738,1.738,0,0,1-1.84,1.84c-14.716,0-26.122,11.037-26.122,24.65V60.422a2.575,2.575,0,0,1-5.151,0h0L214.7,10.387Z" transform="translate(393.82 17.207)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><g transform="translate(0 26.489)"><path d="M135.023,35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,10.669-20.6,22.442V58.971a2.515,2.515,0,0,1-2.575,2.575c-1.472,0-2.207-1.1-2.207-2.575h0V35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,9.566-20.6,21.707V58.971a2.515,2.515,0,0,1-2.575,2.575A2.687,2.687,0,0,1,49.3,59.339V10.407A2.121,2.121,0,0,1,51.507,8.2h.368c1.472,0,2.575.736,2.575,2.207h0V22.181c1.84-6.622,11.037-13.613,20.6-13.613,12.141,0,18.028,6.254,20.6,15.82a25.167,25.167,0,0,1,22.074-15.82c16.556,0,21.707,11.037,21.707,26.857V58.971a2.515,2.515,0,0,1-2.575,2.575h0a2.515,2.515,0,0,1-2.575-2.575Z" transform="translate(-49.3 -8.2)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M136.533,60.911c-1.472,0-2.575-.736-2.575-2.207h0V47.3c-3.679,7.726-12.509,13.613-26.489,13.613-17.292,0-30.169-9.2-30.169-26.489S90.177,8.3,107.1,8.3c12.877,0,22.81,5.151,26.489,13.613V10.875A2.451,2.451,0,0,1,135.43,8.3h.368a2.767,2.767,0,0,1,2.575,1.84V58.7c0,1.472-.736,2.575-1.84,2.207ZM107.468,12.347c-13.981,0-25.018,7.726-25.018,22.81S93.856,57.6,107.468,57.6c12.509,0,26.857-6.622,26.857-22.442S119.977,12.347,107.468,12.347Z" transform="translate(25.714 -7.932)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M99.136,10.775a2.767,2.767,0,0,1,1.84-2.575h.368a2.121,2.121,0,0,1,2.207,2.207V24.388c4.415-9.566,14.716-15.82,25.386-15.82a1.738,1.738,0,0,1,1.84,1.84v.368a1.738,1.738,0,0,1-1.84,1.84c-13.981,0-25.386,10.669-25.386,23.914v22.81a2.575,2.575,0,1,1-5.151,0h0Z" transform="translate(82.243 -8.2)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/><path d="M163.186,49.16a1.738,1.738,0,0,1,1.84,1.84,3.885,3.885,0,0,1-.736,1.84c-5.887,5.519-14.716,8.094-23.546,8.094C121.613,60.933,108,50.264,108,34.444S121.613,8.322,140.744,8.322a34.675,34.675,0,0,1,23.546,8.094c.368.368.736,1.472,1.1,1.84a1.738,1.738,0,0,1-1.84,1.84h0a2.81,2.81,0,0,1-1.84-.736A29.569,29.569,0,0,0,141.112,12c-16.556,0-27.961,8.83-27.961,22.81s11.405,22.442,27.961,22.442c7.726.368,14.716-2.575,20.6-7.358A1.911,1.911,0,0,1,163.186,49.16Z" transform="translate(107.962 -7.955)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/></g><path d="M135.023,35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,10.669-20.6,22.442V58.971a2.515,2.515,0,0,1-2.575,2.575c-1.472,0-2.207-1.1-2.207-2.575h0V35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,9.566-20.6,21.707V58.971a2.515,2.515,0,0,1-2.575,2.575A2.687,2.687,0,0,1,49.3,59.339V10.407A2.121,2.121,0,0,1,51.507,8.2h.368c1.472,0,2.575.736,2.575,2.207h0V22.181c1.84-6.622,11.037-13.613,20.6-13.613,12.141,0,18.028,6.254,20.6,15.82a25.167,25.167,0,0,1,22.074-15.82c16.556,0,21.707,11.037,21.707,26.857V58.971a2.515,2.515,0,0,1-2.575,2.575h0a2.515,2.515,0,0,1-2.575-2.575Z" transform="translate(-49.3 18.289)" fill="#fff" stroke="#fff" stroke-width="0.5"/><path d="M136.533,60.911c-1.472,0-2.575-.736-2.575-2.207h0V47.3c-3.679,7.726-12.509,13.613-26.489,13.613-17.292,0-30.169-9.2-30.169-26.489S90.177,8.3,107.1,8.3c12.877,0,22.81,5.151,26.489,13.613V10.875A2.451,2.451,0,0,1,135.43,8.3h.368a2.767,2.767,0,0,1,2.575,1.84V58.7c0,1.472-.736,2.575-1.84,2.207ZM107.468,12.347c-13.981,0-25.018,7.726-25.018,22.81S93.856,57.6,107.468,57.6c12.509,0,26.857-6.622,26.857-22.442S119.977,12.347,107.468,12.347Z" transform="translate(25.714 18.557)" fill="#fff" stroke="#fff" stroke-width="0.5"/><path d="M99.136,10.775a2.767,2.767,0,0,1,1.84-2.575h.368a2.121,2.121,0,0,1,2.207,2.207V24.388c4.415-9.566,14.716-15.82,25.386-15.82a1.738,1.738,0,0,1,1.84,1.84v.368a1.738,1.738,0,0,1-1.84,1.84c-13.981,0-25.386,10.669-25.386,23.914v22.81a2.575,2.575,0,1,1-5.151,0h0Z" transform="translate(82.243 18.289)" fill="#fff" stroke="#fff" stroke-width="0.5"/><path d="M163.186,49.16a1.738,1.738,0,0,1,1.84,1.84,3.885,3.885,0,0,1-.736,1.84c-5.887,5.519-14.716,8.094-23.546,8.094C121.613,60.933,108,50.264,108,34.444S121.613,8.322,140.744,8.322a34.675,34.675,0,0,1,23.546,8.094c.368.368.736,1.472,1.1,1.84a1.738,1.738,0,0,1-1.84,1.84h0a2.81,2.81,0,0,1-1.84-.736A29.569,29.569,0,0,0,141.112,12c-16.556,0-27.961,8.83-27.961,22.81s11.405,22.442,27.961,22.442c7.726.368,14.716-2.575,20.6-7.358A1.911,1.911,0,0,1,163.186,49.16Z" transform="translate(107.962 18.535)" fill="#fff" stroke="#fff" stroke-width="0.5"/></g></g></svg>
-      </a>
-    </div>
+    </head>
+    <body>
+        <header class="navBar">
+            <div class="nav-contact">
+                <a href="tel:+27659345960"
+                    ><img class="iconImage" src="images/marclosper-phone.svg" />
+                    call me</a
+                >
 
-    <div class="header" style="clear:both;">
-        <p>Please get in touch if you feel I would be a good match for your next digital project. I often work closely with teams of creatives, designers, copywriters,  and project managers and have spent the majority of my professional career in marketing & digital agency environments.</p>
+                <a href="mailto:hello@marclosper.com"
+                    ><img class="iconImage" src="images/marclosper-email.svg" />
+                    mail me</a
+                >
+            </div>
 
-    </div>
-  </header>
+            <hr />
 
-  <nav>
+            <div class="nav-logo">
+                <a href="/">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg
+                        class="mlLogoIcon"
+                        style="width: 50px; height: 50px"
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 24 24"
+                        style="enable-background: new 0 0 24 24"
+                        xml:space="preserve"
+                    >
+                        <style type="text/css">
+                            .st0 {
+                                fill: none;
+                                stroke: #fdc500;
+                                stroke-width: 1.5;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                            }
+                            .st1 {
+                                fill: #fdc500;
+                            }
+                        </style>
+                        <line class="st0" x1="12" y1="2" x2="12" y2="6" />
+                        <line class="st0" x1="12" y1="18" x2="12" y2="22" />
+                        <line class="st0" x1="4.9" y1="4.9" x2="7.8" y2="7.8" />
+                        <line
+                            class="st0"
+                            x1="16.2"
+                            y1="16.2"
+                            x2="19.1"
+                            y2="19.1"
+                        />
+                        <line class="st0" x1="2" y1="12" x2="6" y2="12" />
+                        <line class="st0" x1="18" y1="12" x2="22" y2="12" />
+                        <line
+                            class="st0"
+                            x1="4.9"
+                            y1="19.1"
+                            x2="7.8"
+                            y2="16.2"
+                        />
+                        <line
+                            class="st0"
+                            x1="16.2"
+                            y1="7.8"
+                            x2="19.1"
+                            y2="4.9"
+                        />
+                        <circle class="st1" cx="12" cy="12" r="4.4" />
+                    </svg>
+                    <svg
+                        style="
+                            height: 30px;
+                            width: auto;
+                            padding-left: 12px;
+                            vertical-align: super;
+                        "
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="643"
+                        height="108.061"
+                        viewBox="0 0 643 108.061"
+                    >
+                        <g transform="translate(-201.019 -0.5)">
+                            <g transform="translate(201.519 1)">
+                                <path
+                                    d="M128.9,3.575A2.515,2.515,0,0,1,131.475,1h0a2.515,2.515,0,0,1,2.575,2.575V70.535c0,6.622,2.207,7.726,5.519,7.726q1.656,0,2.207,2.207a1.738,1.738,0,0,1-1.84,1.84h0c-7.726,0-10.3-3.679-10.3-11.773Z"
+                                    transform="translate(163.955 -1)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-miterlimit="10"
+                                    stroke-width="1"
+                                />
+                                <path
+                                    d="M167.208,62.45c-20.235,0-32.008-12.509-32.008-27.225S146.973,8,167.208,8s32.008,12.141,32.008,27.225S187.443,62.45,167.208,62.45Zm0-51.139c-17.66,0-26.857,10.669-26.857,23.546s9.2,23.546,26.857,23.546,26.857-10.669,26.857-23.546S184.5,11.311,167.208,11.311Z"
+                                    transform="translate(180.833 17.754)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-miterlimit="10"
+                                    stroke-width="1"
+                                />
+                                <path
+                                    d="M181.422,62.718c-12.509,0-21.339-2.575-25.018-5.151-.368-.368-1.1-1.1-1.1-1.472a2.06,2.06,0,0,1,1.84-2.207c.368,0,1.1.368,1.472.368a40.446,40.446,0,0,0,22.81,4.415c11.405,0,20.6-3.311,20.6-10.669,0-17.292-45.621-5.519-45.621-25.386,0-9.934,11.773-14.716,24.65-14.716,7.726,0,18.4,1.84,22.442,4.415a2.66,2.66,0,0,1,1.472,2.207,1.738,1.738,0,0,1-1.84,1.84h0c-.368,0-.736-.368-1.472-.368a57.05,57.05,0,0,0-20.6-4.047c-10.3,0-19.867,2.943-19.867,9.934,0,15.452,45.621,3.679,45.621,25.386C207.175,57.568,196.506,62.718,181.422,62.718Z"
+                                    transform="translate(234.683 17.486)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-miterlimit="10"
+                                    stroke-width="1"
+                                />
+                                <path
+                                    d="M176.075,7.952c1.472,0,2.575.736,2.575,2.207V22.3c4.415-8.094,13.613-13.613,27.225-13.613,17.66,0,31.272,9.566,31.272,27.225s-13.613,27.225-31.272,27.225c-14.716,0-23.178-6.254-27.225-13.981V87.052a2.575,2.575,0,0,1-5.151,0V10.159c.368-1.472,1.472-2.575,2.575-2.207Zm30.536,50.771c14.716,0,25.754-8.094,25.754-23.546S220.96,11.631,206.612,11.631c-13.245,0-27.961,6.622-27.961,23.546S193.367,58.723,206.612,58.723Z"
+                                    transform="translate(283.442 17.434)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-miterlimit="10"
+                                    stroke-width="1"
+                                />
+                                <path
+                                    d="M199.051,36.6C199.787,48,208.248,58.3,225.54,58.3c10.3,0,18.763-3.679,23.546-8.462a3.025,3.025,0,0,1,2.207-1.472c1.472,0,2.207,1.1,2.207,2.575,0,.368-.368.736-.368,1.472-5.519,6.254-15.82,10.3-27.225,10.3-17.66,0-32.008-10.3-32.008-27.225S207.513,7.9,224.8,7.9c18.763,0,32.008,11.037,32.008,25.018,0,2.575-.736,3.679-2.575,3.679Zm0-4.047h52.243c0-11.773-10.3-20.971-26.857-20.971-14.716.368-24.65,8.83-25.386,20.971Z"
+                                    transform="translate(338.095 17.486)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-miterlimit="10"
+                                    stroke-width="1"
+                                />
+                                <path
+                                    d="M214.7,10.387c0-1.472.736-2.575,2.207-2.575h.368c1.472,0,2.575.736,2.575,2.207V24A27.937,27.937,0,0,1,246.34,7.811a1.738,1.738,0,0,1,1.84,1.84v.368a1.738,1.738,0,0,1-1.84,1.84c-14.716,0-26.122,11.037-26.122,24.65V60.422a2.575,2.575,0,0,1-5.151,0h0L214.7,10.387Z"
+                                    transform="translate(393.82 17.207)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-miterlimit="10"
+                                    stroke-width="1"
+                                />
+                                <g transform="translate(0 26.489)">
+                                    <path
+                                        d="M135.023,35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,10.669-20.6,22.442V58.971a2.515,2.515,0,0,1-2.575,2.575c-1.472,0-2.207-1.1-2.207-2.575h0V35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,9.566-20.6,21.707V58.971a2.515,2.515,0,0,1-2.575,2.575A2.687,2.687,0,0,1,49.3,59.339V10.407A2.121,2.121,0,0,1,51.507,8.2h.368c1.472,0,2.575.736,2.575,2.207h0V22.181c1.84-6.622,11.037-13.613,20.6-13.613,12.141,0,18.028,6.254,20.6,15.82a25.167,25.167,0,0,1,22.074-15.82c16.556,0,21.707,11.037,21.707,26.857V58.971a2.515,2.515,0,0,1-2.575,2.575h0a2.515,2.515,0,0,1-2.575-2.575Z"
+                                        transform="translate(-49.3 -8.2)"
+                                        fill="#fff"
+                                        stroke="#fff"
+                                        stroke-miterlimit="10"
+                                        stroke-width="1"
+                                    />
+                                    <path
+                                        d="M136.533,60.911c-1.472,0-2.575-.736-2.575-2.207h0V47.3c-3.679,7.726-12.509,13.613-26.489,13.613-17.292,0-30.169-9.2-30.169-26.489S90.177,8.3,107.1,8.3c12.877,0,22.81,5.151,26.489,13.613V10.875A2.451,2.451,0,0,1,135.43,8.3h.368a2.767,2.767,0,0,1,2.575,1.84V58.7c0,1.472-.736,2.575-1.84,2.207ZM107.468,12.347c-13.981,0-25.018,7.726-25.018,22.81S93.856,57.6,107.468,57.6c12.509,0,26.857-6.622,26.857-22.442S119.977,12.347,107.468,12.347Z"
+                                        transform="translate(25.714 -7.932)"
+                                        fill="#fff"
+                                        stroke="#fff"
+                                        stroke-miterlimit="10"
+                                        stroke-width="1"
+                                    />
+                                    <path
+                                        d="M99.136,10.775a2.767,2.767,0,0,1,1.84-2.575h.368a2.121,2.121,0,0,1,2.207,2.207V24.388c4.415-9.566,14.716-15.82,25.386-15.82a1.738,1.738,0,0,1,1.84,1.84v.368a1.738,1.738,0,0,1-1.84,1.84c-13.981,0-25.386,10.669-25.386,23.914v22.81a2.575,2.575,0,1,1-5.151,0h0Z"
+                                        transform="translate(82.243 -8.2)"
+                                        fill="#fff"
+                                        stroke="#fff"
+                                        stroke-miterlimit="10"
+                                        stroke-width="1"
+                                    />
+                                    <path
+                                        d="M163.186,49.16a1.738,1.738,0,0,1,1.84,1.84,3.885,3.885,0,0,1-.736,1.84c-5.887,5.519-14.716,8.094-23.546,8.094C121.613,60.933,108,50.264,108,34.444S121.613,8.322,140.744,8.322a34.675,34.675,0,0,1,23.546,8.094c.368.368.736,1.472,1.1,1.84a1.738,1.738,0,0,1-1.84,1.84h0a2.81,2.81,0,0,1-1.84-.736A29.569,29.569,0,0,0,141.112,12c-16.556,0-27.961,8.83-27.961,22.81s11.405,22.442,27.961,22.442c7.726.368,14.716-2.575,20.6-7.358A1.911,1.911,0,0,1,163.186,49.16Z"
+                                        transform="translate(107.962 -7.955)"
+                                        fill="#fff"
+                                        stroke="#fff"
+                                        stroke-miterlimit="10"
+                                        stroke-width="1"
+                                    />
+                                </g>
+                                <path
+                                    d="M135.023,35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,10.669-20.6,22.442V58.971a2.515,2.515,0,0,1-2.575,2.575c-1.472,0-2.207-1.1-2.207-2.575h0V35.057c0-11.773-3.311-22.81-17.292-22.81-10.3,0-20.6,9.566-20.6,21.707V58.971a2.515,2.515,0,0,1-2.575,2.575A2.687,2.687,0,0,1,49.3,59.339V10.407A2.121,2.121,0,0,1,51.507,8.2h.368c1.472,0,2.575.736,2.575,2.207h0V22.181c1.84-6.622,11.037-13.613,20.6-13.613,12.141,0,18.028,6.254,20.6,15.82a25.167,25.167,0,0,1,22.074-15.82c16.556,0,21.707,11.037,21.707,26.857V58.971a2.515,2.515,0,0,1-2.575,2.575h0a2.515,2.515,0,0,1-2.575-2.575Z"
+                                    transform="translate(-49.3 18.289)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-width="0.5"
+                                />
+                                <path
+                                    d="M136.533,60.911c-1.472,0-2.575-.736-2.575-2.207h0V47.3c-3.679,7.726-12.509,13.613-26.489,13.613-17.292,0-30.169-9.2-30.169-26.489S90.177,8.3,107.1,8.3c12.877,0,22.81,5.151,26.489,13.613V10.875A2.451,2.451,0,0,1,135.43,8.3h.368a2.767,2.767,0,0,1,2.575,1.84V58.7c0,1.472-.736,2.575-1.84,2.207ZM107.468,12.347c-13.981,0-25.018,7.726-25.018,22.81S93.856,57.6,107.468,57.6c12.509,0,26.857-6.622,26.857-22.442S119.977,12.347,107.468,12.347Z"
+                                    transform="translate(25.714 18.557)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-width="0.5"
+                                />
+                                <path
+                                    d="M99.136,10.775a2.767,2.767,0,0,1,1.84-2.575h.368a2.121,2.121,0,0,1,2.207,2.207V24.388c4.415-9.566,14.716-15.82,25.386-15.82a1.738,1.738,0,0,1,1.84,1.84v.368a1.738,1.738,0,0,1-1.84,1.84c-13.981,0-25.386,10.669-25.386,23.914v22.81a2.575,2.575,0,1,1-5.151,0h0Z"
+                                    transform="translate(82.243 18.289)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-width="0.5"
+                                />
+                                <path
+                                    d="M163.186,49.16a1.738,1.738,0,0,1,1.84,1.84,3.885,3.885,0,0,1-.736,1.84c-5.887,5.519-14.716,8.094-23.546,8.094C121.613,60.933,108,50.264,108,34.444S121.613,8.322,140.744,8.322a34.675,34.675,0,0,1,23.546,8.094c.368.368.736,1.472,1.1,1.84a1.738,1.738,0,0,1-1.84,1.84h0a2.81,2.81,0,0,1-1.84-.736A29.569,29.569,0,0,0,141.112,12c-16.556,0-27.961,8.83-27.961,22.81s11.405,22.442,27.961,22.442c7.726.368,14.716-2.575,20.6-7.358A1.911,1.911,0,0,1,163.186,49.16Z"
+                                    transform="translate(107.962 18.535)"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                    stroke-width="0.5"
+                                />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
 
-  </nav>
+            <div class="header" style="clear: both">
+                <p>
+                    Please get in touch if you feel I would be a good match for
+                    your next digital project. I often work closely with teams
+                    of creatives, designers, copywriters, and project managers
+                    and have spent the majority of my professional career in
+                    marketing & digital agency environments.
+                </p>
+            </div>
+        </header>
 
-  <section class="intro">
-    <div class="noAnimation introContent">
-      <h1>Success! Your request has been sent and I'll get back to you as soon as possible.</h1>
-      <br>
-      <a href="/">Return to the homescreen</a>
-    </div>
-  </section>
+        <nav></nav>
 
+        <section class="intro">
+            <div class="noAnimation introContent">
+                <h1>
+                    Success! Your request has been sent and I'll get back to you
+                    as soon as possible.
+                </h1>
+                <br />
+                <a href="/">Return to the homescreen</a>
+            </div>
+        </section>
 
-  <footer class="footer">
-    <a href="/">
-      <?xml version="1.0" encoding="utf-8"?>
-      <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-      <svg class="mlLogoIcon" style="width:50px;height:50px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-      <style type="text/css">
-        .st0{fill:none;stroke:#FDC500;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
-        .st1{fill:#FDC500;}
-      </style>
-      <line class="st0" x1="12" y1="2" x2="12" y2="6"/>
-      <line class="st0" x1="12" y1="18" x2="12" y2="22"/>
-      <line class="st0" x1="4.9" y1="4.9" x2="7.8" y2="7.8"/>
-      <line class="st0" x1="16.2" y1="16.2" x2="19.1" y2="19.1"/>
-      <line class="st0" x1="2" y1="12" x2="6" y2="12"/>
-      <line class="st0" x1="18" y1="12" x2="22" y2="12"/>
-      <line class="st0" x1="4.9" y1="19.1" x2="7.8" y2="16.2"/>
-      <line class="st0" x1="16.2" y1="7.8" x2="19.1" y2="4.9"/>
-      <circle class="st1" cx="12" cy="12" r="4.4"/>
-      </svg>
-    </a>
-    <div class="animationSection desktopSection">
-        <div class="x1">
-            <div class="cloud"></div>
+        <footer class="footer">
+            <a href="/">
+                <?xml version="1.0" encoding="utf-8"?>
+                <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg
+                    class="mlLogoIcon"
+                    style="width: 50px; height: 50px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 24 24"
+                    style="enable-background: new 0 0 24 24"
+                    xml:space="preserve"
+                >
+                    <style type="text/css">
+                        .st0 {
+                            fill: none;
+                            stroke: #fdc500;
+                            stroke-width: 1.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                        }
+                        .st1 {
+                            fill: #fdc500;
+                        }
+                    </style>
+                    <line class="st0" x1="12" y1="2" x2="12" y2="6" />
+                    <line class="st0" x1="12" y1="18" x2="12" y2="22" />
+                    <line class="st0" x1="4.9" y1="4.9" x2="7.8" y2="7.8" />
+                    <line class="st0" x1="16.2" y1="16.2" x2="19.1" y2="19.1" />
+                    <line class="st0" x1="2" y1="12" x2="6" y2="12" />
+                    <line class="st0" x1="18" y1="12" x2="22" y2="12" />
+                    <line class="st0" x1="4.9" y1="19.1" x2="7.8" y2="16.2" />
+                    <line class="st0" x1="16.2" y1="7.8" x2="19.1" y2="4.9" />
+                    <circle class="st1" cx="12" cy="12" r="4.4" />
+                </svg>
+            </a>
+            <div class="animationSection desktopSection">
+                <div class="x1">
+                    <div class="cloud"></div>
+                </div>
+
+                <div class="x2">
+                    <div class="cloud"></div>
+                </div>
+
+                <div class="x3">
+                    <div class="cloud"></div>
+                </div>
+            </div>
+
+            <div class="desktopSection">
+                <div class="bird-container">
+                    <div class="bird"><span class="beak"></span></div>
+                </div>
+            </div>
+        </footer>
+        <div class="bottomBar">
+            <img
+                class="tableMountain"
+                src="images/table-mountain.svg"
+                alt="table mountain cape town south africa"
+            />
+
+            <p class="copyrightText">© 2019, ALL RIGHTS RESERVED</p>
         </div>
 
-        <div class="x2">
-            <div class="cloud"></div>
-        </div>
-
-        <div class="x3">
-            <div class="cloud"></div>
-        </div>
-      </div>
-
-    <div class="desktopSection">
-        <div class="bird-container">
-            <div class="bird"><span class="beak"></span></div>
-        </div>
-      </div>
-  </footer>
-  <div class="bottomBar">
-    <img class="tableMountain" src="images/table-mountain.svg" alt="table mountain cape town south africa">
-
-    <p class="copyrightText">© 2019, ALL RIGHTS RESERVED</p>
-  </div>
-
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7732461.js"></script>
-<!-- End of HubSpot Embed Code -->
-</body>
+        <!-- Start of HubSpot Embed Code -->
+        <script
+            type="text/javascript"
+            id="hs-script-loader"
+            async
+            defer
+            src="//js.hs-scripts.com/7732461.js"
+        ></script>
+        <!-- End of HubSpot Embed Code -->
+    </body>
 </html>
