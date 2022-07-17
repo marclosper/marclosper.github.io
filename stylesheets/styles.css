@@ -216,7 +216,7 @@ p.copyrightText {
 	position: absolute;
 	bottom: 0;
 }
-@media screen (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .x1 {
         bottom: -100px;
     }
