@@ -1,4 +1,0 @@
-user-agent: *
-
-disallow: /thank-you/
-no-index: /thank-you/
